@@ -419,3 +419,11 @@ details[open]{border-color:var(--sun)}
 @media (max-width:980px){.post-grid{grid-template-columns:1fr 1fr}}
 @media (max-width:640px){.post-grid{grid-template-columns:1fr}}
 .hero{overflow-x:clip}
+
+/* ---------- v7: owner card ---------- */
+.owner{display:grid;grid-template-columns:.8fr 1.2fr;gap:48px;align-items:center;max-width:1000px;margin-inline:auto}
+.owner img{width:100%;aspect-ratio:4/5;object-fit:cover;border-radius:var(--r-lg);background:var(--paper-2)}
+.owner h2{margin-bottom:12px}
+.owner .role{margin-bottom:4px}
+.owner p{color:var(--ink-2)}
+@media (max-width:980px){.owner{grid-template-columns:1fr;max-width:480px;gap:26px}}
